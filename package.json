@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon app.js",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "mev": "nodemon emailAgent.js",
+    "rev": "nodemon ai-agent.js"
   },
   "keywords": [],
   "author": "",
